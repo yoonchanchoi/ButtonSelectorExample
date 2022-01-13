@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="169dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/selector_buttom_img"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:text="제롱동이"
+        android:background="@drawable/selector_buttom"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/button2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- AppcompatButton 안드로이드 버전이 올라가면서 기본 버튼특을 보라색을 깔아버려서 그렇습니다. 그래서 AppcompatButton이라는 아무속성이
+         없는 버튼을 써야됩니다.-->
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
